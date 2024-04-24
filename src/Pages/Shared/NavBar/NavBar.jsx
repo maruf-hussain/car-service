@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/logo.svg';
+import logo from '../../../assets/logo/lool.jpg'
+
+
 
 const NavBar = () => {
     const NavItems = <>
@@ -21,7 +23,7 @@ const NavBar = () => {
             </ul>
           </div>
           <Link to='/' className="btn btn-ghost text-xl">
-          <img  src={logo}></img>
+       <img className='w-40' src={logo} alt="" />
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">

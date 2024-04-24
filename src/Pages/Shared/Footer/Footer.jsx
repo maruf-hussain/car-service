@@ -1,8 +1,12 @@
+import logo from '../../../assets/logo/lool.jpg'
+
+
 
 const Footer = () => {
     return (
         <footer className="footer p-10 bg-black text-white">
   <aside>
+    <img className='w-28' src={logo} alt="" />
     <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
   </aside> 
   <nav>
