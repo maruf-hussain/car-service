@@ -1,4 +1,4 @@
-import logo from '../../../assets/logo/lool.jpg'
+import logo from '../../../assets/logo/lool.png'
 
 
 
@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="footer p-10 bg-black text-white">
   <aside>
-    <img className='w-28' src={logo} alt="" />
+    <img className='w-12' src={logo} alt="" />
     <p>Maruf Car Service Ltd.<br/>Providing reliable tech since 1990</p>
   </aside> 
   <nav>
